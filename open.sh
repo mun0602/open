@@ -3,7 +3,7 @@
 set -e
 
 # Cập nhật hệ thống và cài đặt các gói cần thiết
-apt update -y && apt install -y openvpn easy-rsa unzip
+apt install -y openvpn easy-rsa unzip
 
 # Tạo thư mục chứa CA và chuyển vào đó
 make-cadir ~/openvpn-ca
